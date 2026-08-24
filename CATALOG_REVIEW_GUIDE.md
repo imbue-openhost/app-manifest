@@ -11,14 +11,25 @@ it out.
    the app actually behaves — don't just trust it.
 
 2. **Sign-in works as described.** Try it yourself:
-   - The **owner** gets in the way the description says — usually signed in
-     automatically, with no login screen and no hunting for a password.
+   - The **owner** is signed in automatically. Barring an unusual circumstance,
+     the owner should never have to make an account or enter a password to use an
+     OpenHost app — no login screen, no hunting for a password.
    - **Everyone else** is handled right: sent to the login page for a private
      app, or shown shared/public content without being signed in as the owner.
+   - **No onboarding flow.** Wherever the platform allows it, an app should have
+     no signup or first-boot setup — we handle auth for you, so there's no
+     account to create. Configuration should be pre-determined and baked into the
+     app or wrapper repo based on what makes sense for a bottle user, rather than
+     asking a bunch of questions on first boot. Ideally apps come up and are
+     immediately usable.
 
-3. **The app works.** It does the thing it's for — not just "the container
-   starts." Add the feed, record the video, play the game. If the main feature
-   is broken, it's not ready, however clean the rest is.
+3. **The app works — all of it.** It does the thing it's for — not just "the
+   container starts." Add the feed, record the video, play the game. If the main
+   feature is broken, it's not ready, however clean the rest is. No part of the
+   app should be broken by the integration into Cloud in a Bottle. Things like
+   share-link generation should be tested and adapted to work properly within the
+   platform. If something genuinely can't work, make that
+   clear in-product rather than leaving it non-obviously broken.
 
 4. **Data survives a restart.** Anything the user creates is kept when the app is
    redeployed — not lost with the container.
@@ -37,7 +48,9 @@ it out.
    than to run; when so, give the build a higher limit of its own.
 
 8. **The app is reasonably secure.** No obvious security holes — for example, it
-   must not leak passwords, keys, or tokens into its logs.
+   must not leak passwords, keys, or tokens into its logs. It also shouldn't
+   request any permissions or privileges that aren't necessary for the purpose of
+   the app.
 
 ## The integration score (1–5)
 
