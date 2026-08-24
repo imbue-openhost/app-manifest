@@ -7,6 +7,3 @@ website_url = "https://www.navidrome.org"
 docs_url = "https://github.com/imbue-openhost/bottled-navidrome#readme"
 tags = ["music", "streaming", "media"]
 categories = ["entertainment", "privacy"]
-
-openhost_integration_score = 3
-openhost_integration_score_explanation = "Owner is auto-logged in as admin, but invited users and Subsonic client apps still need app-local Navidrome accounts."

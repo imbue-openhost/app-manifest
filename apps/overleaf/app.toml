@@ -7,6 +7,3 @@ website_url = "https://www.overleaf.com"
 docs_url = "https://github.com/imbue-openhost/bottled-overleaf#readme"
 tags = ["latex", "editor", "writing", "collaboration", "academic", "self-hosted"]
 categories = ["productivity", "publishing"]
-
-openhost_integration_score = 4
-openhost_integration_score_explanation = "Zone owner is auto-signed into the Overleaf admin with zero clicks via the owner header, and project links can be shared publicly with collaborators who have no Cloud in a Bottle account, but any named Overleaf accounts you add use app-local passwords created via the admin panel."

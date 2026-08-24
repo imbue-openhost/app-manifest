@@ -7,6 +7,3 @@ website_url = "https://bsky.social"
 docs_url = "https://github.com/imbue-openhost/bottled-bluesky#readme"
 tags = ["bluesky", "atproto", "federation", "social", "pds"]
 categories = ["networking", "publishing", "data-liberation"]
-
-openhost_integration_score = 4
-openhost_integration_score_explanation = "Owner lands signed in with zero clicks via a real server-minted PDS session while federation paths stay anonymously reachable, but the SSO app-password and PDS identity secrets are persisted as 0600 files rather than injected directly."

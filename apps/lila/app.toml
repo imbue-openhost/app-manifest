@@ -7,6 +7,3 @@ website_url = "https://lichess.org"
 docs_url = "https://github.com/imbue-openhost/bottled-lila#readme"
 tags = ["chess", "games", "lichess", "tournaments", "puzzles"]
 categories = ["entertainment"]
-
-openhost_integration_score = 4
-openhost_integration_score_explanation = "Zone owner is auto-logged in as admin with zero clicks; shared challenge/game links work for anonymous guests without a Cloud in a Bottle account, and AI/bot games play. Short of 5 because extra registered players still need Lila-local accounts."
