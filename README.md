@@ -34,9 +34,9 @@ The `name` field is the app's identifier in the catalog: it is used in catalog U
 
 ## Getting into the catalog
 
-There is no numeric integration rating. An app is either in the catalog or it
-isn't: it earns its place by passing a review of how well it fits Cloud in a
-Bottle — primarily SSO quality, data/secret conventions, and guest handling.
+An app is either in the catalog or it isn't: it earns its place by passing a
+review of how well it fits Cloud in a Bottle — primarily SSO quality,
+data/secret conventions, and guest handling.
 Apps that fall short are fixed or left out rather than shipped as-is.
 
 The checklist a review works through lives in

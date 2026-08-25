@@ -52,8 +52,8 @@ review — there is no numeric rating.
 
 ## Include or exclude
 
-There is no numeric rating. A review ends in one of two outcomes: the app goes
-in the catalog, or it doesn't. Judge how well the app fits the platform — mainly
+A review ends in one of two outcomes: the app goes in the catalog, or it
+doesn't. Judge how well the app fits the platform — mainly
 single sign-on and how it treats the owner and guests — not how good the
 underlying app is. A great project with a clunky fit doesn't belong here; a
 simple app that fits perfectly does.
