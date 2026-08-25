@@ -373,6 +373,26 @@
       "docs_url": "https://github.com/imbue-openhost/md-notes#readme"
     },
     {
+      "name": "mealie",
+      "title": "Mealie",
+      "description": "Self-hosted recipe manager and meal planner with a per-recipe cooking timeline for iterating on recipes across multiple attempts.",
+      "repo_url": "https://github.com/imbue-openhost/bottled-mealie",
+      "repo_ref": "",
+      "icon_url": "",
+      "tags": [
+        "recipes",
+        "cooking",
+        "meal-planning",
+        "food"
+      ],
+      "categories": [
+        "productivity",
+        "utility"
+      ],
+      "website_url": "https://mealie.io",
+      "docs_url": "https://github.com/imbue-openhost/bottled-mealie#readme"
+    },
+    {
       "name": "minecraft",
       "title": "Minecraft",
       "description": "A self-hosted minecraft server runner",
@@ -734,5 +754,5 @@
       "docs_url": "https://github.com/imbue-openhost/bottled-vaultwarden#readme"
     }
   ],
-  "generated_at": "2026-08-24T18:20:03Z"
+  "generated_at": "2026-08-25T21:55:30Z"
 }
