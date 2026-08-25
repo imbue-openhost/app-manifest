@@ -7,6 +7,3 @@ website_url = "https://github.com/janeczku/calibre-web"
 docs_url = "https://github.com/imbue-openhost/bottled-calibre-web#readme"
 tags = ["ebooks", "books", "reading", "library", "opds", "self-hosted"]
 categories = ["publishing", "entertainment"]
-
-openhost_integration_score = 3
-openhost_integration_score_explanation = "Zone owner is auto-logged in as admin via the owner header, but invited readers still sign in with Calibre-Web-local password accounts."

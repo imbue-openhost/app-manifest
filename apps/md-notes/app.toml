@@ -7,6 +7,3 @@ website_url = "https://github.com/imbue-openhost/md-notes"
 docs_url = "https://github.com/imbue-openhost/md-notes#readme"
 tags = ["markdown", "notes", "sharing"]
 categories = ["privacy", "utility", "productivity"]
-
-openhost_integration_score = 5
-openhost_integration_score_explanation = "Owner is auto-logged-in via the trusted owner header (non-owners hit the zone login); per-note share links serve accountless guests, and whole vaults can be shared with other Cloud in a Bottle users' instances."

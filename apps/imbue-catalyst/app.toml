@@ -9,6 +9,3 @@ website_url = "https://github.com/imbue-ai/catalyst"
 docs_url = "https://github.com/imbue-ai/catalyst#readme"
 tags = ["research", "ai", "science", "agent"]
 categories = ["ai", "productivity"]
-
-openhost_integration_score = 3
-openhost_integration_score_explanation = "Agents need to be authenticated through a separate page, and their authentications do not persist across restarts."

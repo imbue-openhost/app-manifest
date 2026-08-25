@@ -10,7 +10,7 @@ name: Catalog
 #   - On push to main, catalog.json is regenerated and committed if stale,
 #     which is what catches the fork case.
 # In every case generate.py also validates the TOML and fails the job on
-# invalid input (bad name, unknown category, malformed score).
+# invalid input (bad name, unknown category).
 #
 # On a PR, only the repos whose app.toml changed are checked for being public,
 # so verification scales with the size of the diff, not the catalog. That means

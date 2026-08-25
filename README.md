@@ -29,23 +29,18 @@ The feed follows the `openhost.catalog.v1` schema. Each app entry has:
 | `categories`   | no       | Array of categories |
 | `website_url`  | no       | Upstream project homepage |
 | `docs_url`     | no       | Documentation link |
-| `openhost_integration_score` | no | Integer 1-5 rating how natively the app integrates with Cloud in a Bottle (SSO, data conventions, guest handling). Omit for unrated apps. See [SCORING.md](SCORING.md). |
-| `openhost_integration_score_explanation` | no | One short sentence explaining *why* the app earned its score, shown in the catalog UI. Omit when unrated. See [SCORING.md](SCORING.md). |
 
 The `name` field is the app's identifier in the catalog: it is used in catalog URLs, pre-filled as the default deployed app name when installing, and must be unique within a source.
 
-## Integration score
+## Getting into the catalog
 
-Each app may carry an `openhost_integration_score` (1-5) plus a one-sentence
-`openhost_integration_score_explanation`. The score rates how natively the app
-behaves on Cloud in a Bottle — primarily SSO quality, data/secret conventions, and guest
-handling — **not** how good the upstream project is.
+An app is either in the catalog or it isn't: it earns its place by passing a
+review of how well it fits Cloud in a Bottle — primarily SSO quality,
+data/secret conventions, and guest handling.
+Apps that fall short are fixed or left out rather than shipped as-is.
 
-The full rubric and the checklist for scoring an app live in **[SCORING.md](SCORING.md)**.
-
-`generate.py` validates both fields: the score must be an integer 1-5 when
-present (omitted → `0` = unrated), and the explanation must be a short string
-and may only be set when a score is set.
+The checklist a review works through lives in
+**[CATALOG_REVIEW_GUIDE.md](CATALOG_REVIEW_GUIDE.md)**.
 
 ## Uniqueness
 
@@ -65,8 +60,8 @@ Edit `apps/<name>/app.toml` and CI regenerates `catalog.json`.
    - **Fork:** CI can't push to your fork, so it only validates; `catalog.json`
      is regenerated on `main` when the PR merges.
 
-   If the TOML is invalid (bad name, unknown category, malformed score) the
-   check fails with the reason.
+   If the TOML is invalid (bad name, unknown category) the check fails with the
+   reason.
 
 If you do have a local checkout, you can regenerate ahead of CI with
 `python3 generate.py` and commit `catalog.json` yourself — optional, not

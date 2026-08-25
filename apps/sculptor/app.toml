@@ -7,6 +7,3 @@ website_url = "https://github.com/imbue-ai/sculptor"
 docs_url = "https://github.com/imbue-ai/sculptor#readme"
 tags = ["code", "agents", "development"]
 categories = ["productivity", "ai", "development"]
-
-openhost_integration_score = 3
-openhost_integration_score_explanation = "Requires re-signing in rather than importing secrets"

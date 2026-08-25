@@ -7,6 +7,3 @@ website_url = "https://matrix.org"
 docs_url = "https://github.com/imbue-openhost/bottled-community-chat#readme"
 tags = ["messaging", "matrix", "encryption", "federation", "chat"]
 categories = ["networking", "privacy"]
-
-openhost_integration_score = 4
-openhost_integration_score_explanation = "The owner is auto-logged-in via SSO into the bundled web client (no login form), data persists, and the app self-restarts to apply settings. Short of 5 because it is single-owner: others who join get Synapse-local accounts, not Cloud in a Bottle SSO."

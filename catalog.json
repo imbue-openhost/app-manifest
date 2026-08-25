@@ -21,9 +21,7 @@
         "data-liberation"
       ],
       "website_url": "https://github.com/imbue-openhost/apple-health-connector",
-      "docs_url": "https://github.com/imbue-openhost/apple-health-connector#readme",
-      "openhost_integration_score": 4,
-      "openhost_integration_score_explanation": "Zone owner is auto-logged into the dashboard with zero clicks; the machine ingest endpoint is public and gated by a self-issued API key, as expected for device uploads."
+      "docs_url": "https://github.com/imbue-openhost/apple-health-connector#readme"
     },
     {
       "name": "backup",
@@ -40,9 +38,7 @@
         "utility"
       ],
       "website_url": "https://github.com/imbue-openhost/backup",
-      "docs_url": "https://github.com/imbue-openhost/backup#readme",
-      "openhost_integration_score": 4,
-      "openhost_integration_score_explanation": ""
+      "docs_url": "https://github.com/imbue-openhost/backup#readme"
     },
     {
       "name": "bifrost",
@@ -61,9 +57,7 @@
         "utility"
       ],
       "website_url": "https://github.com/maximhq/bifrost",
-      "docs_url": "https://github.com/imbue-openhost/bottled-bifrost#readme",
-      "openhost_integration_score": 4,
-      "openhost_integration_score_explanation": "Owner reaches the web UI via Cloud in a Bottle perimeter gating (no login form); its OpenAI-compatible inference API is exposed to other apps behind a full_access grant \u2014 perimeter-based, not a full owner session."
+      "docs_url": "https://github.com/imbue-openhost/bottled-bifrost#readme"
     },
     {
       "name": "bluesky",
@@ -85,9 +79,7 @@
         "data-liberation"
       ],
       "website_url": "https://bsky.social",
-      "docs_url": "https://github.com/imbue-openhost/bottled-bluesky#readme",
-      "openhost_integration_score": 4,
-      "openhost_integration_score_explanation": "Owner lands signed in with zero clicks via a real server-minted PDS session while federation paths stay anonymously reachable, but the SSO app-password and PDS identity secrets are persisted as 0600 files rather than injected directly."
+      "docs_url": "https://github.com/imbue-openhost/bottled-bluesky#readme"
     },
     {
       "name": "calibre-web",
@@ -109,9 +101,7 @@
         "entertainment"
       ],
       "website_url": "https://github.com/janeczku/calibre-web",
-      "docs_url": "https://github.com/imbue-openhost/bottled-calibre-web#readme",
-      "openhost_integration_score": 3,
-      "openhost_integration_score_explanation": "Zone owner is auto-logged in as admin via the owner header, but invited readers still sign in with Calibre-Web-local password accounts."
+      "docs_url": "https://github.com/imbue-openhost/bottled-calibre-web#readme"
     },
     {
       "name": "cap",
@@ -134,9 +124,7 @@
         "productivity"
       ],
       "website_url": "https://cap.so",
-      "docs_url": "https://github.com/cloud-in-a-bottle/openhost-cap#readme",
-      "openhost_integration_score": 4,
-      "openhost_integration_score_explanation": "Owner is auto-logged into a seeded Cap account with zero clicks via trusted-proxy SSO (no email code); share links play for accountless guests, and video blobs stay on the instance."
+      "docs_url": "https://github.com/cloud-in-a-bottle/openhost-cap#readme"
     },
     {
       "name": "code-completion",
@@ -158,9 +146,7 @@
         "productivity"
       ],
       "website_url": "https://github.com/imbue-openhost/code-completion",
-      "docs_url": "https://github.com/imbue-openhost/code-completion#readme",
-      "openhost_integration_score": 4,
-      "openhost_integration_score_explanation": "Zone owner reaches the management UI via router gating (no login form) and the OpenAI-compatible API is gated by an app-issued token; access is perimeter-based rather than a full owner session."
+      "docs_url": "https://github.com/imbue-openhost/code-completion#readme"
     },
     {
       "name": "community-chat",
@@ -181,9 +167,7 @@
         "privacy"
       ],
       "website_url": "https://matrix.org",
-      "docs_url": "https://github.com/imbue-openhost/bottled-community-chat#readme",
-      "openhost_integration_score": 4,
-      "openhost_integration_score_explanation": "The owner is auto-logged-in via SSO into the bundled web client (no login form), data persists, and the app self-restarts to apply settings. Short of 5 because it is single-owner: others who join get Synapse-local accounts, not Cloud in a Bottle SSO."
+      "docs_url": "https://github.com/imbue-openhost/bottled-community-chat#readme"
     },
     {
       "name": "filestash",
@@ -201,9 +185,7 @@
         "productivity"
       ],
       "website_url": "https://www.filestash.app/",
-      "docs_url": "https://github.com/imbue-openhost/bottled-filestash#readme",
-      "openhost_integration_score": 4,
-      "openhost_integration_score_explanation": "Owner is auto-logged into the file manager with zero clicks via passthrough auth; public share links aren't exposed, so they require owner login too."
+      "docs_url": "https://github.com/imbue-openhost/bottled-filestash#readme"
     },
     {
       "name": "forgejo",
@@ -222,9 +204,7 @@
         "development"
       ],
       "website_url": "https://forgejo.org",
-      "docs_url": "https://github.com/imbue-openhost/bottled-forgejo#readme",
-      "openhost_integration_score": 3,
-      "openhost_integration_score_explanation": "Zone owner is auto-logged in as admin; invited users still create Forgejo-local password accounts."
+      "docs_url": "https://github.com/imbue-openhost/bottled-forgejo#readme"
     },
     {
       "name": "graphhopper",
@@ -246,9 +226,7 @@
         "search"
       ],
       "website_url": "https://www.graphhopper.com",
-      "docs_url": "https://github.com/imbue-openhost/bottled-graphhopper#readme",
-      "openhost_integration_score": 4,
-      "openhost_integration_score_explanation": "Stateless routing engine behind Cloud in a Bottle zone auth with a small owner-only region admin; no accounts and nothing to leak, but no full owner session."
+      "docs_url": "https://github.com/imbue-openhost/bottled-graphhopper#readme"
     },
     {
       "name": "imbue-catalyst",
@@ -268,9 +246,7 @@
         "productivity"
       ],
       "website_url": "https://github.com/imbue-ai/catalyst",
-      "docs_url": "https://github.com/imbue-ai/catalyst#readme",
-      "openhost_integration_score": 3,
-      "openhost_integration_score_explanation": "Agents need to be authenticated through a separate page, and their authentications do not persist across restarts."
+      "docs_url": "https://github.com/imbue-ai/catalyst#readme"
     },
     {
       "name": "jellyfin",
@@ -291,9 +267,7 @@
         "privacy"
       ],
       "website_url": "https://jellyfin.org",
-      "docs_url": "https://github.com/imbue-openhost/bottled-jellyfin#readme",
-      "openhost_integration_score": 3,
-      "openhost_integration_score_explanation": "Owner is auto-signed into the web UI with zero clicks via a token shim, but invited users and third-party Jellyfin client apps still sign in with app-local accounts."
+      "docs_url": "https://github.com/imbue-openhost/bottled-jellyfin#readme"
     },
     {
       "name": "jitsi",
@@ -315,9 +289,7 @@
         "networking"
       ],
       "website_url": "https://jitsi.org",
-      "docs_url": "https://github.com/imbue-openhost/bottled-jitsi#readme",
-      "openhost_integration_score": 3,
-      "openhost_integration_score_explanation": "Anyone with the meeting URL can join by design; no per-user Cloud in a Bottle login, which fits the conferencing model."
+      "docs_url": "https://github.com/imbue-openhost/bottled-jitsi#readme"
     },
     {
       "name": "lila",
@@ -337,9 +309,7 @@
         "entertainment"
       ],
       "website_url": "https://lichess.org",
-      "docs_url": "https://github.com/imbue-openhost/bottled-lila#readme",
-      "openhost_integration_score": 4,
-      "openhost_integration_score_explanation": "Zone owner is auto-logged in as admin with zero clicks; shared challenge/game links work for anonymous guests without a Cloud in a Bottle account, and AI/bot games play. Short of 5 because extra registered players still need Lila-local accounts."
+      "docs_url": "https://github.com/imbue-openhost/bottled-lila#readme"
     },
     {
       "name": "limesurvey",
@@ -360,9 +330,7 @@
         "utility"
       ],
       "website_url": "https://www.limesurvey.org",
-      "docs_url": "https://github.com/imbue-openhost/bottled-limesurvey#readme",
-      "openhost_integration_score": 4,
-      "openhost_integration_score_explanation": "Owner is auto-signed into the admin panel via the zone-owner header and anonymous respondents reach public surveys without a login, but any extra admin users you add use app-local passwords."
+      "docs_url": "https://github.com/imbue-openhost/bottled-limesurvey#readme"
     },
     {
       "name": "lyftr",
@@ -382,9 +350,7 @@
         "utility"
       ],
       "website_url": "https://github.com/Cawlumm/lyftr",
-      "docs_url": "https://github.com/imbue-openhost/bottled-lyftr#readme",
-      "openhost_integration_score": 4,
-      "openhost_integration_score_explanation": "Zone owner is auto-logged in with zero clicks; guests hit the app's login. Single-user tracker with no accounts to bootstrap and nothing left on disk."
+      "docs_url": "https://github.com/imbue-openhost/bottled-lyftr#readme"
     },
     {
       "name": "md-notes",
@@ -404,9 +370,7 @@
         "productivity"
       ],
       "website_url": "https://github.com/imbue-openhost/md-notes",
-      "docs_url": "https://github.com/imbue-openhost/md-notes#readme",
-      "openhost_integration_score": 5,
-      "openhost_integration_score_explanation": "Owner is auto-logged-in via the trusted owner header (non-owners hit the zone login); per-note share links serve accountless guests, and whole vaults can be shared with other Cloud in a Bottle users' instances."
+      "docs_url": "https://github.com/imbue-openhost/md-notes#readme"
     },
     {
       "name": "minecraft",
@@ -423,9 +387,7 @@
         "entertainment"
       ],
       "website_url": "https://github.com/imbue-openhost/bottled-minecraft",
-      "docs_url": "https://github.com/imbue-openhost/bottled-minecraft#readme",
-      "openhost_integration_score": 4,
-      "openhost_integration_score_explanation": "Server provisions and persists worlds natively; players authenticate via Minecraft accounts, as expected for a game server."
+      "docs_url": "https://github.com/imbue-openhost/bottled-minecraft#readme"
     },
     {
       "name": "miniflux",
@@ -445,9 +407,7 @@
         "utility"
       ],
       "website_url": "https://miniflux.app",
-      "docs_url": "https://github.com/imbue-openhost/bottled-miniflux#readme",
-      "openhost_integration_score": 4,
-      "openhost_integration_score_explanation": "Zone owner is auto-logged in via Cloud in a Bottle SSO; bundled Postgres persists feeds cleanly."
+      "docs_url": "https://github.com/imbue-openhost/bottled-miniflux#readme"
     },
     {
       "name": "mirotalk-p2p",
@@ -469,9 +429,7 @@
         "networking"
       ],
       "website_url": "https://github.com/miroslavpejic85/mirotalk",
-      "docs_url": "https://github.com/imbue-openhost/bottled-mirotalk-p2p#readme",
-      "openhost_integration_score": 4,
-      "openhost_integration_score_explanation": "Zone owner is auto-logged in as host; guests join via the room URL. Signaling-only, no media stored."
+      "docs_url": "https://github.com/imbue-openhost/bottled-mirotalk-p2p#readme"
     },
     {
       "name": "navidrome",
@@ -490,9 +448,7 @@
         "privacy"
       ],
       "website_url": "https://www.navidrome.org",
-      "docs_url": "https://github.com/imbue-openhost/bottled-navidrome#readme",
-      "openhost_integration_score": 3,
-      "openhost_integration_score_explanation": "Owner is auto-logged in as admin, but invited users and Subsonic client apps still need app-local Navidrome accounts."
+      "docs_url": "https://github.com/imbue-openhost/bottled-navidrome#readme"
     },
     {
       "name": "nextcloud",
@@ -516,9 +472,7 @@
         "data-liberation"
       ],
       "website_url": "https://nextcloud.com",
-      "docs_url": "https://github.com/imbue-openhost/bottled-nextcloud#readme",
-      "openhost_integration_score": 5,
-      "openhost_integration_score_explanation": "Zone owner is auto-logged into an admin account with zero clicks via the trusted owner header bridged to user_saml; sync clients (WebDAV) and public share links pass through without owner login, and non-owner visitors are never signed in as the owner."
+      "docs_url": "https://github.com/imbue-openhost/bottled-nextcloud#readme"
     },
     {
       "name": "openchamber",
@@ -540,9 +494,7 @@
         "productivity"
       ],
       "website_url": "https://github.com/openchamber/openchamber",
-      "docs_url": "https://github.com/imbue-openhost/bottled-openchamber#readme",
-      "openhost_integration_score": 4,
-      "openhost_integration_score_explanation": "Zone owner reaches the workspace with zero clicks via router gating and the Anthropic key comes from the secrets service; access is perimeter-based rather than an in-app owner session, and there is deliberately no guest mode."
+      "docs_url": "https://github.com/imbue-openhost/bottled-openchamber#readme"
     },
     {
       "name": "openclaw",
@@ -560,9 +512,7 @@
         "productivity"
       ],
       "website_url": "https://openclaw.ai/",
-      "docs_url": "https://github.com/imbue-openhost/bottled-openclaw#readme",
-      "openhost_integration_score": 4,
-      "openhost_integration_score_explanation": "Zone owner is auto-logged in with full operator access via the Cloud in a Bottle owner header; a single-user assistant, so non-owners are simply rejected and no secrets are written to disk."
+      "docs_url": "https://github.com/imbue-openhost/bottled-openclaw#readme"
     },
     {
       "name": "openweb-ui",
@@ -582,9 +532,7 @@
         "productivity"
       ],
       "website_url": "https://openwebui.com",
-      "docs_url": "https://github.com/imbue-openhost/bottled-openweb-ui#readme",
-      "openhost_integration_score": 4,
-      "openhost_integration_score_explanation": "Zone owner lands as admin (Open WebUI's own auth disabled, router-gated) and guests are bounced to the zone login; owner access is perimeter-based rather than a native SSO session."
+      "docs_url": "https://github.com/imbue-openhost/bottled-openweb-ui#readme"
     },
     {
       "name": "oura-connector",
@@ -603,9 +551,7 @@
         "data-liberation"
       ],
       "website_url": "https://github.com/imbue-openhost/oura-connector",
-      "docs_url": "https://github.com/imbue-openhost/oura-connector#readme",
-      "openhost_integration_score": 4,
-      "openhost_integration_score_explanation": "Zone owner is auto-recognized and reaches the dashboard and data with zero clicks (no app login); non-owners are bounced to the zone login. Perimeter-based rather than a full owner session."
+      "docs_url": "https://github.com/imbue-openhost/oura-connector#readme"
     },
     {
       "name": "overleaf",
@@ -627,9 +573,7 @@
         "publishing"
       ],
       "website_url": "https://www.overleaf.com",
-      "docs_url": "https://github.com/imbue-openhost/bottled-overleaf#readme",
-      "openhost_integration_score": 4,
-      "openhost_integration_score_explanation": "Zone owner is auto-signed into the Overleaf admin with zero clicks via the owner header, and project links can be shared publicly with collaborators who have no Cloud in a Bottle account, but any named Overleaf accounts you add use app-local passwords created via the admin panel."
+      "docs_url": "https://github.com/imbue-openhost/bottled-overleaf#readme"
     },
     {
       "name": "pihole",
@@ -650,9 +594,7 @@
         "productivity"
       ],
       "website_url": "https://pi-hole.net",
-      "docs_url": "https://github.com/imbue-openhost/bottled-pihole#readme",
-      "openhost_integration_score": 3,
-      "openhost_integration_score_explanation": "Zone owner is auto-logged in to the admin dashboard, but the generated admin password is stored in plaintext on disk where other apps could read it."
+      "docs_url": "https://github.com/imbue-openhost/bottled-pihole#readme"
     },
     {
       "name": "redlib",
@@ -672,9 +614,7 @@
         "entertainment"
       ],
       "website_url": "https://github.com/redlib-org/redlib",
-      "docs_url": "https://github.com/imbue-openhost/bottled-redlib#readme",
-      "openhost_integration_score": 5,
-      "openhost_integration_score_explanation": "Stateless public Reddit front-end with no accounts and nothing to leak; there is nothing to integrate, and it works cleanly for everyone out of the box."
+      "docs_url": "https://github.com/imbue-openhost/bottled-redlib#readme"
     },
     {
       "name": "sculptor",
@@ -694,9 +634,7 @@
         "development"
       ],
       "website_url": "https://github.com/imbue-ai/sculptor",
-      "docs_url": "https://github.com/imbue-ai/sculptor#readme",
-      "openhost_integration_score": 3,
-      "openhost_integration_score_explanation": "Requires re-signing in rather than importing secrets"
+      "docs_url": "https://github.com/imbue-ai/sculptor#readme"
     },
     {
       "name": "searxng",
@@ -716,9 +654,7 @@
         "utility"
       ],
       "website_url": "https://docs.searxng.org",
-      "docs_url": "https://github.com/imbue-openhost/bottled-searxng#readme",
-      "openhost_integration_score": 5,
-      "openhost_integration_score_explanation": "Stateless public metasearch with no accounts and nothing to leak; there is nothing to integrate, and it works cleanly for everyone out of the box."
+      "docs_url": "https://github.com/imbue-openhost/bottled-searxng#readme"
     },
     {
       "name": "spliit",
@@ -737,9 +673,7 @@
         "utility"
       ],
       "website_url": "https://spliit.app",
-      "docs_url": "https://github.com/imbue-openhost/bottled-spliit#readme",
-      "openhost_integration_score": 3,
-      "openhost_integration_score_explanation": "The owner reaches the app through zone auth and can share group links with guests who need no Cloud in a Bottle account, but Spliit has no user accounts so there is no real owner SSO to speak of."
+      "docs_url": "https://github.com/imbue-openhost/bottled-spliit#readme"
     },
     {
       "name": "tangled",
@@ -759,9 +693,7 @@
         "development"
       ],
       "website_url": "https://tangled.org",
-      "docs_url": "https://github.com/imbue-openhost/bottled-tangled#readme",
-      "openhost_integration_score": 2,
-      "openhost_integration_score_explanation": "Deploys and persists git data cleanly, with an owner-gated in-app form to set your ATProto DID (no Cloud in a Bottle SSO \u2014 the knot has no browser login). Setup needs external steps: a Bluesky/ATProto account and a verify click on tangled.org to federate."
+      "docs_url": "https://github.com/imbue-openhost/bottled-tangled#readme"
     },
     {
       "name": "uptime-kuma",
@@ -780,9 +712,7 @@
         "networking"
       ],
       "website_url": "https://uptime.kuma.pet",
-      "docs_url": "https://github.com/imbue-openhost/bottled-uptime-kuma#readme",
-      "openhost_integration_score": 4,
-      "openhost_integration_score_explanation": "Owner is auto-logged into the dashboard with zero clicks and guests are bounced to the zone login, but public status pages aren't exposed for anonymous viewing."
+      "docs_url": "https://github.com/imbue-openhost/bottled-uptime-kuma#readme"
     },
     {
       "name": "vaultwarden",
@@ -801,10 +731,8 @@
         "utility"
       ],
       "website_url": "https://github.com/dani-garcia/vaultwarden",
-      "docs_url": "https://github.com/imbue-openhost/bottled-vaultwarden#readme",
-      "openhost_integration_score": 2,
-      "openhost_integration_score_explanation": "Runs and persists data correctly, but there is no Cloud in a Bottle SSO; the owner signs in through Vaultwarden's own email and master-password login form."
+      "docs_url": "https://github.com/imbue-openhost/bottled-vaultwarden#readme"
     }
   ],
-  "generated_at": "2026-08-21T19:20:12Z"
+  "generated_at": "2026-08-24T18:20:03Z"
 }
