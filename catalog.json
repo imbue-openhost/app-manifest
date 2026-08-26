@@ -251,6 +251,27 @@
       "docs_url": "https://github.com/imbue-openhost/bottled-graphhopper#readme"
     },
     {
+      "name": "hckrnws",
+      "title": "hckrnws",
+      "description": "Clean, mobile-friendly Hacker News reader with searchable stories and comments, multiple feeds, dark mode, and browser-local bookmarks.",
+      "repo_url": "https://github.com/cloud-in-a-bottle/bottled-hckrnws",
+      "repo_ref": "",
+      "icon_url": "",
+      "tags": [
+        "hacker-news",
+        "news",
+        "reader",
+        "search",
+        "frontend"
+      ],
+      "categories": [
+        "entertainment",
+        "search"
+      ],
+      "website_url": "https://hckrnws.com",
+      "docs_url": "https://github.com/cloud-in-a-bottle/bottled-hckrnws#readme"
+    },
+    {
       "name": "imbue-catalyst",
       "title": "Imbue Catalyst",
       "description": "A tool for semi-autonomous scientific research and discovery.",
@@ -776,5 +797,5 @@
       "docs_url": "https://github.com/imbue-openhost/bottled-vaultwarden#readme"
     }
   ],
-  "generated_at": "2026-08-25T23:03:53Z"
+  "generated_at": "2026-08-26T18:48:58Z"
 }

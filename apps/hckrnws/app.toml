@@ -1,0 +1,9 @@
+[app]
+name = "hckrnws"
+title = "hckrnws"
+description = "Clean, mobile-friendly Hacker News reader with searchable stories and comments, multiple feeds, dark mode, and browser-local bookmarks."
+repo_url = "https://github.com/cloud-in-a-bottle/bottled-hckrnws"
+website_url = "https://hckrnws.com"
+docs_url = "https://github.com/cloud-in-a-bottle/bottled-hckrnws#readme"
+tags = ["hacker-news", "news", "reader", "search", "frontend"]
+categories = ["entertainment", "search"]
