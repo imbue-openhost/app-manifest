@@ -1,7 +1,7 @@
 [app]
 name = "lemmy"
 title = "Lemmy"
-description = "Self-hosted federated platform for text and link discussions, with public browsing, owner single sign-on, and communities across the fediverse."
+description = "Self-hosted federated link aggregator with public browsing, image hosting, owner single sign-on, and communities across the fediverse."
 repo_url = "https://github.com/cloud-in-a-bottle/bottled-lemmy"
 website_url = "https://join-lemmy.org"
 docs_url = "https://github.com/cloud-in-a-bottle/bottled-lemmy#readme"

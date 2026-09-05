@@ -316,7 +316,7 @@
     {
       "name": "lemmy",
       "title": "Lemmy",
-      "description": "Self-hosted federated platform for text and link discussions, with public browsing, owner single sign-on, and communities across the fediverse.",
+      "description": "Self-hosted federated link aggregator with public browsing, image hosting, owner single sign-on, and communities across the fediverse.",
       "repo_url": "https://github.com/cloud-in-a-bottle/bottled-lemmy",
       "repo_ref": "",
       "icon_url": "",
@@ -797,5 +797,5 @@
       "docs_url": "https://github.com/imbue-openhost/bottled-vaultwarden#readme"
     }
   ],
-  "generated_at": "2026-09-05T15:31:32Z"
+  "generated_at": "2026-09-05T18:32:23Z"
 }
