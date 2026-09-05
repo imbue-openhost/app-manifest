@@ -314,6 +314,27 @@
       "docs_url": "https://github.com/imbue-openhost/bottled-jitsi#readme"
     },
     {
+      "name": "lemmy",
+      "title": "Lemmy",
+      "description": "Self-hosted federated platform for text and link discussions, with public browsing, owner single sign-on, and communities across the fediverse.",
+      "repo_url": "https://github.com/cloud-in-a-bottle/bottled-lemmy",
+      "repo_ref": "",
+      "icon_url": "",
+      "tags": [
+        "lemmy",
+        "fediverse",
+        "federation",
+        "social",
+        "communities"
+      ],
+      "categories": [
+        "networking",
+        "publishing"
+      ],
+      "website_url": "https://join-lemmy.org",
+      "docs_url": "https://github.com/cloud-in-a-bottle/bottled-lemmy#readme"
+    },
+    {
       "name": "lila",
       "title": "Lichess",
       "description": "Self-hosted Lichess (Lila) chess server with one-click SSO: play, do puzzles, run tournaments, and analyze games. Pre-seeded so the lobby and leaderboards aren't empty.",
@@ -776,5 +797,5 @@
       "docs_url": "https://github.com/imbue-openhost/bottled-vaultwarden#readme"
     }
   ],
-  "generated_at": "2026-08-25T23:03:53Z"
+  "generated_at": "2026-09-05T15:31:32Z"
 }
