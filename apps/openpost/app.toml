@@ -1,0 +1,9 @@
+[app]
+name = "openpost"
+title = "OpenPost"
+description = "Create content, schedule publications, and manage social accounts in one workspace."
+repo_url = "https://github.com/getopenpost/bottled-openpost"
+website_url = "https://openpo.st"
+docs_url = "https://github.com/getopenpost/bottled-openpost#readme"
+tags = ["social-media", "scheduling", "publishing", "content", "self-hosted"]
+categories = ["publishing", "productivity"]

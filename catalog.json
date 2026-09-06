@@ -557,6 +557,27 @@
       "docs_url": "https://github.com/imbue-openhost/bottled-openclaw#readme"
     },
     {
+      "name": "openpost",
+      "title": "OpenPost",
+      "description": "Create content, schedule publications, and manage social accounts in one workspace.",
+      "repo_url": "https://github.com/getopenpost/bottled-openpost",
+      "repo_ref": "",
+      "icon_url": "",
+      "tags": [
+        "social-media",
+        "scheduling",
+        "publishing",
+        "content",
+        "self-hosted"
+      ],
+      "categories": [
+        "publishing",
+        "productivity"
+      ],
+      "website_url": "https://openpo.st",
+      "docs_url": "https://github.com/getopenpost/bottled-openpost#readme"
+    },
+    {
       "name": "openweb-ui",
       "title": "Open WebUI",
       "description": "Self-hosted ChatGPT-style interface for local and remote LLMs (Ollama, OpenAI, Anthropic, etc).",
@@ -776,5 +797,5 @@
       "docs_url": "https://github.com/imbue-openhost/bottled-vaultwarden#readme"
     }
   ],
-  "generated_at": "2026-08-25T23:03:53Z"
+  "generated_at": "2026-09-06T17:21:51Z"
 }
